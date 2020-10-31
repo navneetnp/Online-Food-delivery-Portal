@@ -128,6 +128,38 @@
     font-family: 'Bree Serif', serif;
 }
 
+/* Client Section */
+
+#client-section
+{
+    height: 344px;
+}
+#client-section::before
+{
+    content: "";
+    position: absolute;
+    background-image: url('images/bg2.png');
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item
+{
+    padding: 34px;
+}
+#clients img
+{
+    height: 100 px;
+    width: 100px;
+}
+
 
 /* Utility Classes */
 .h-primary
